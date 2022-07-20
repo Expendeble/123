@@ -1,0 +1,345 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+	height: 100%;
+	width: 100%;
+}
+.conteiner {
+	max-width: 1182px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.wrapper {
+}
+.hey {
+	
+
+		// .hey__row
+
+		&__row {
+			background-color: #445162;
+			padding: 50px;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		// .hey__body
+
+		&__body {}
+
+		// .hey__title
+
+		&__title {
+			font-family: Arial;
+font-size: 60px;
+line-height: 1.2;
+font-weight: 400;
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+color: #ffffff;
+margin: 0 0 40px 0;
+		}
+
+		&__table{
+			font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+color: #ffffff;
+li{
+	background: url("/hellosass/img/icons/check_icon.png") left no-repeat;
+	padding: 0 0 0 30px;
+}
+		}
+		// .hey__image
+
+		&__image {
+		
+		}
+}
+
+
+.what {
+	background-color: #ffffff;
+	
+
+	// .what__row
+
+	&__row {
+		display: flex;
+		
+		
+	}
+
+	// .what__picture
+
+	&__picture {}
+
+	// .what__body
+
+	&__body {
+		margin: 0 10px 0 30px;
+	
+	}
+
+	// .what__title
+
+	&__title {
+		font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+margin: 0 0 18px 0;
+	}
+
+	// .what__subtitle
+
+	&__subtitle {
+		font-family: Arial;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #333333;
+p{
+	margin: 0 0 15px 0;
+	&:last-child{
+		margin: 0;
+	}
+}
+	}
+}
+
+
+
+
+
+
+.colums {
+	background-color: #f5f5f5;
+
+	// .colums__main
+
+	&__main {
+		font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+text-align: center;
+padding: 15px 0 0 0;
+margin: 0 0 30px 0;
+	}
+
+	// .colums__row
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	// .colums__colum
+
+	&__colum {
+		flex: 0 1 50%;
+		margin: 0 -6px;
+	}
+
+	// .colums__item
+
+	&__item {
+		display: flex;
+		padding: 0 6px;
+		
+	}
+
+	// .colums__imggg
+
+	&__imggg {
+		
+	}
+
+	// .colums__body
+
+	&__body {
+		padding: 0 0 20px 20px;
+	}
+
+	// .colums__title
+
+	&__title {
+		font-family: Arial;
+font-size: 24px;
+line-height: 30px;
+font-weight: 400;
+color: #445161;
+margin: -5px 0 10px 0;
+
+	}
+
+	// .colums__subtitle
+
+	&__subtitle {
+		font-family: Arial;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #333333;
+	}
+}
+.conteiner {
+}
+
+
+
+.vertical {
+	padding: 50px 0;
+
+
+	// .vertical__mainn
+
+	&__mainn {
+		font-family: Arial;
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #445161;
+text-align: center;
+margin: 0 0 30px 0;
+	}
+
+	// .vertical__row
+
+	&__row {
+		display: flex;
+		margin: 0 -22px;
+	}
+
+	// .vertical__columsssss
+
+	&__columsssss {
+		flex: 0 1 33.333%;
+		padding: 0 22px;	 
+		display: flex;
+		
+	
+		
+	}
+
+	// .vertical__item
+
+	
+
+	// .vertical__body
+
+	&__body {
+		background-color: #445162;
+		border-radius: 8px;
+		border: 2px solid black;
+		padding: 0 0 20px 0;		
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	// .vertical__q
+
+	&__q {
+		font-family: Arial;
+font-size: 24px;
+line-height: 30px;
+font-weight: 400;
+text-transform: uppercase;
+color: #ffffff;
+text-align: center;
+padding: 8px 0;
+	}
+
+	// .vertical__w
+
+	&__w {
+		background-color: white;
+		font-family: Arial;
+font-size: 40px;
+line-height: 30px;
+font-weight: 400;
+color: #445162;
+text-align: center;
+padding: 20px;
+	}
+
+	// .vertical__e
+
+	&__e {
+		font-family: Arial;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+color: #ffffff;
+padding:  20px;
+flex: 1 1 auto;
+p{
+	margin: 0 0 15px 0;
+	&:last-child{
+		margin: 0;
+	}
+}
+	}
+
+	// .vertical__btn
+
+	&__btn {
+		display: block;
+		font-family: Arial;
+font-size: 18px;
+line-height: 18px;
+font-weight: 700;
+color: #445161;
+height: 40px;
+background-color: #ffffff;
+text-align: center;
+border-radius: 6px;
+padding: 10px 0;
+margin: 0 20px;
+&:hover{
+	color: red;
+	transition: 2s;
+	font-size: 20px;
+	
+	text-decoration: underline;
+}
+	}
+}
+.conteinerr {
+	max-width: 990px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	
+
+		// .footer__text
+
+		&__text {
+			background-color: #f5f5f5;
+			font-family: Arial;
+font-size: 12px;
+line-height: 24px;
+font-weight: 400;
+letter-spacing: 0.025em;
+color: #445162;
+text-align: center;
+padding: 25px 0;
+		}
+}
