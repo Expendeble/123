@@ -317,6 +317,110 @@ margin: 0 20px;
 }
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// .tabs
+.tabs {
+
+	// .tabs__conteinerrr
+
+	&__conteinerrr {
+		width: 1000px;
+		margin: 0 auto;
+		padding: 50px;
+	}
+
+	// .tabs__items
+
+	&__items {
+		
+		display: flex;
+	}
+
+	// .tabs__item
+
+	&__item {
+		
+		flex: 0 1 33.333%;
+		text-transform: uppercase;
+		font-size: 20px;
+		color: rgb(18, 117, 18);
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		span{
+			color: rgb(53, 30, 182);
+			position: relative;
+         z-index: 2;
+			padding: 20px 0 0 0;
+		}
+		
+
+	}
+
+	// .tabs__body
+
+	&__body {}
+
+	// .tabs__block
+
+	&__block {
+		padding: 20px;
+		font-size: 18px;
+		line-height: 24px;
+		display: none;
+		position: relative;
+		&:nth-child(1){
+			background-color: red;
+			&::before{
+				content:"";
+				background-color: red;
+				left: 0;
+			}
+			
+		}
+		&:nth-child(2){
+			background-color: yellow;
+			&::before{
+				content:"";
+				background-color: yellow;
+				left: 33.333%;
+			}
+		}
+		&:nth-child(3){
+			background-color: green;
+			&::before{
+				content:"";
+				background-color: green;
+				right: 0;
+			}
+		}
+		&:target{
+			display: block;
+		}
+		&::before{
+			content:"";
+			height: 50px;
+			width: 33.333%;
+			position: absolute;
+			top: -32px;
+		}
+	
+	}
+
+	
+	// .tabs__text
+
+	&__text {
+		margin: 50px 0 0px 0;
+	}
+}
+
+
+
+
+
+
+
 
 
 
